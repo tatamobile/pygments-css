@@ -20,3 +20,8 @@ To regenerate them all with whichever ``pygments`` version you are using, run
     git clone <this repo>
     cd pygments-css
     make cssfiles
+
+
+```bash
+pygmentize -L styles
+```

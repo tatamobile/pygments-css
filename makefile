@@ -8,22 +8,30 @@
 
 STYLES = autumn
 STYLES += borland
-STYLES += bw
+STYLES += coffee
 STYLES += colorful
 STYLES += default
 STYLES += emacs
 STYLES += friendly
 STYLES += fruity
+STYLES += github-dark
+STYLES += gruvbox-dark
+STYLES += gruvbox-light
 STYLES += manni
 STYLES += monokai
+STYLES += material
 STYLES += murphy
 STYLES += native
 STYLES += pastie
 STYLES += perldoc
+STYLES += stata-dark
+STYLES += stata-light
 STYLES += tango
 STYLES += trac
 STYLES += vim
 STYLES += vs
+STYLES += xcode
+STYLES += zenburn
 
 # a recursively-expanding variable, so that its value contains an actual function call to be
 # re-expanded under the control of foreach
