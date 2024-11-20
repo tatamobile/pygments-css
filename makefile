@@ -35,6 +35,7 @@ STYLES += zenburn
 
 # a recursively-expanding variable, so that its value contains an actual function call to be
 # re-expanded under the control of foreach
+# gen_html = pygmentize -S $(style) -f html -a .highlight > $(style).css;
 gen_html = pygmentize -S $(style) -f html -a .highlight > $(style).css;
 
 cssfiles:
